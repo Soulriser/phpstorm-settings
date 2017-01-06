@@ -23,7 +23,9 @@
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$FileDir$" />
-      <envs />
+      <envs>
+        <env name="PATH" value="$PATH:/usr/local/bin" />
+      </envs>
     </TaskOptions>
   </component>
 </application>
