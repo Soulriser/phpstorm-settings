@@ -3,7 +3,6 @@
     <option name="customScope" value="Captains" />
     <option name="defaultScopeName" value="Captains" />
     <option name="SEARCH_SCOPE" value="Captains" />
-    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
