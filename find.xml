@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../app/bootstrap/routes/TimeTrackingRoutes.php [Pinnacle]'" />
-    <option name="defaultScopeName" value="File '.../app/bootstrap/routes/TimeTrackingRoutes.php [Pinnacle]'" />
-    <option name="SEARCH_SCOPE" value="File '.../app/bootstrap/routes/TimeTrackingRoutes.php [Pinnacle]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
