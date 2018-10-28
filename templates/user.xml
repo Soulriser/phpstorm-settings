@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="rowcol" value="&lt;div class=&quot;row&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;column-full&quot;&gt;&#10;&#9;&#9;&#9;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;" description="BS Row plus full column" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="formrow" value="&lt;div class=&quot;row&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;column-full&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;label class=&quot;control-label&quot;&gt;&lt;/label&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;" description="BS Row for form element" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
