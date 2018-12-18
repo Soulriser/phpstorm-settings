@@ -1,4 +1,5 @@
 <code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="150" />
   <codeStyleSettings language="Blade">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
