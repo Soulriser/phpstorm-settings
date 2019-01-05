@@ -9,4 +9,9 @@
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="pants" value="Test" description="Route Migratin'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
