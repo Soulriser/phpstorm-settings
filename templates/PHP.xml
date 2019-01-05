@@ -9,9 +9,19 @@
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="pants" value="Test" description="Route Migratin'" toReformat="false" toShortenFQNames="true">
+  <template name="migr" value="public function $NAME$($PARAMETERS$) {&#10;    $this-&gt;authorize('has-access', '$ABILITY$');&#10;    &#10;    $END$&#10;}" description="Route Migratin'" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ABILITY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="hasa" value="$this-&gt;authorize('has-access', '$ABILITY$');&#10;&#10;$END$" description="'has-access' authorization" toReformat="true" toShortenFQNames="true">
+    <variable name="ABILITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
 </templateSet>
