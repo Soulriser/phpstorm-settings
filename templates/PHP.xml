@@ -24,4 +24,13 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="routes" value="Route::prefix('$ROUTE$')-&gt;group(function() {&#10;    $END$&#10;&#9;Route::get('/', '$CONTROLLER$Controller@index')-&gt;name('list$CONTROLLER$s');&#10;&#10;&#9;Route::get('{$MODEL$}', '$CONTROLLER$Controller@show')-&gt;name('show$CONTROLLER$');&#10;&#10;&#9;Route::post('/', '$CONTROLLER$Controller@store')-&gt;name('store$CONTROLLER$');&#10;&#10;&#9;Route::put('{$MODEL$}', '$CONTROLLER$Controller@update')-&gt;name('update$CONTROLLER$');&#10;&#9;&#10;&#9;Route::delete('{$MODEL$}', '$CONTROLLER$Controller@destroy')-&gt;name('destroy$CONTROLLER$');&#10;&#10;});" description="Standard route grouping" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
