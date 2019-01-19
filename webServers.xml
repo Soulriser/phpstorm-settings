@@ -4,6 +4,9 @@
       <webServer id="aa72f73a-7656-4c26-a67e-a1aecda78ee3" name="Pinnacle Local" url="http://pinn:8888">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="35a0aabb-6992-4361-8014-db9b23279c62" name="Pinnacle WP" url="http://pinn-wp:8888">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
