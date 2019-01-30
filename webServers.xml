@@ -1,7 +1,18 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="6e9b2143-9146-4ea6-8f8e-5d5d5f20b7e8" name="Pinnacle Staging" url="http://test1.pinnacleyachts.com">
+        <fileTransfer host="ftp.pinnacleyachts.com" port="22" rootFolder="/test1.pinnacleyachts.com/web" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="aa72f73a-7656-4c26-a67e-a1aecda78ee3" name="Pinnacle Local" url="http://pinn:8888">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="35a0aabb-6992-4361-8014-db9b23279c62" name="Pinnacle WP" url="http://pinn-wp:8888">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
