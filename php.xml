@@ -14,7 +14,7 @@
     <phpInfoCache>
       <interpreter name="PHP 7.3">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.3/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.3/bin/php" path_separator=":" version="7.3.3">
-          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini</additional_php_ini>
+          <additional_php_ini />
           <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.3/share/php/pear" />
@@ -32,7 +32,6 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
-            <extension name="Zend OPcache" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
