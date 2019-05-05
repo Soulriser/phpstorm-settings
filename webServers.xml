@@ -15,6 +15,14 @@
       <webServer id="35a0aabb-6992-4361-8014-db9b23279c62" name="Pinnacle WP" url="http://pinn-wp:8888">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="8292291d-f4a7-4616-b867-65ac815e6609" name="Pinnacle Production" url="https://schedule.pinnacleyachts.com">
+        <fileTransfer host="ftp.pinnacleyachts.com" port="22" rootFolder="/schedule.pinnacleyachts.com/web" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
