@@ -5,6 +5,7 @@
       <mapping pattern="season_captain_view" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".env.tinker" type="PLAIN_TEXT" />
       <mapping pattern=".rnd" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
     </extensionMap>
