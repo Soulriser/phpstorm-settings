@@ -8,6 +8,8 @@
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern=".rnd" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping ext="3" type="PLAIN_TEXT" />
+      <mapping ext="2" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
