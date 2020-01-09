@@ -14,7 +14,6 @@
     <mask>*.phtml</mask>
     <mask>*.ctp</mask>
     <mask>*.js</mask>
-    <mask>*.less</mask>
     <mask>*.php</mask>
   </component>
 </application>
