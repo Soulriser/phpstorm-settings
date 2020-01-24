@@ -15,5 +15,6 @@
     <mask>*.ctp</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
