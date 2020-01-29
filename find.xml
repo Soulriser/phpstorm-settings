@@ -13,8 +13,8 @@
     <mask>*.phtml</mask>
     <mask>*.ctp</mask>
     <mask>*.js</mask>
-    <mask>*.blade.php</mask>
     <mask>*.html</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
