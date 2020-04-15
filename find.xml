@@ -14,8 +14,8 @@
     <mask>*.ctp</mask>
     <mask>*.html</mask>
     <mask>*.blade.php</mask>
-    <mask>*.php</mask>
-    <mask>*.</mask>
     <mask>*.js</mask>
+    <mask>*.</mask>
+    <mask>*.php</mask>
   </component>
 </application>
