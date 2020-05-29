@@ -2,10 +2,13 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="aa72f73a-7656-4c26-a67e-a1aecda78ee3" name="Pinnacle Local" url="http://pinn:8888">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="35a0aabb-6992-4361-8014-db9b23279c62" name="Pinnacle WP" url="http://pinn-wp:8888">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="d778b0f0-458d-484a-a408-d7c852b33baf" name="Alto Saga" url="http://alto-saga:8888">
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
