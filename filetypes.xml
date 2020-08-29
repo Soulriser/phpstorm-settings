@@ -3,16 +3,16 @@
     <extensionMap>
       <mapping pattern=".tool-versions" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing.example" type="PLAIN_TEXT" />
       <mapping pattern="hjhk" type="PLAIN_TEXT" />
       <mapping pattern=".ebignore" type="PLAIN_TEXT" />
-      <mapping ext="production" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing.example" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping ext="lst" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="production" type="PLAIN_TEXT" />
+      <mapping ext="lst" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
