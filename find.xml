@@ -12,10 +12,11 @@
     <mask>*.module</mask>
     <mask>*.phtml</mask>
     <mask>*.ctp</mask>
-    <mask>*.blade.php</mask>
     <mask>*.</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
+    <mask>*.json</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
