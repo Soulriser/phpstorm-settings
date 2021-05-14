@@ -16,9 +16,9 @@
     <mask>*.html</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
-    <mask>*.php</mask>
-    <mask>*.blade.php</mask>
     <mask>*.yml</mask>
     <mask>*.js</mask>
+    <mask>*.blade.php</mask>
+    <mask>*.php</mask>
   </component>
 </application>
