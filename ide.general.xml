@@ -9,6 +9,7 @@
     <entry key="dumb.aware.run.configurations" value="true" />
     <entry key="search.everywhere.settings" value="true" />
     <entry key="ide.tooltip.initialDelay" value="562" />
+    <entry key="documentation.show.toolbar" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
